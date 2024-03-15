@@ -38,7 +38,6 @@ namespace RealTimeDeviceSystem
     {
         public int RobotNumber { get; set; }
         public int Coord { get; set; }
-        public int ObjectType { get; set; }
 
         public void FillLocation(int robotNumber, int coord)
         {
